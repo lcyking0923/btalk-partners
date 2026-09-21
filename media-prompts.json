@@ -1,0 +1,30 @@
+[
+  {
+    "key": "medical-technology",
+    "prompt": "Use case: photorealistic-natural\nAsset type: landscape website concept image and edited brand-video still, 1536x1024.\nPrimary request: premium editorial closeup of blue-gloved hands using a pipette near a clean microscope in a modern bright laboratory. Generic conceptual medical-technology scene, not a depiction of any company's actual products or facilities.\nComposition/framing: close-up hands and pipette in crisp focus, microscope clearly recognizable nearby, clean glass labware and brushed metal surfaces, elegant uncluttered wide framing suitable for cropping to 16:9.\nStyle/medium: authentic photorealistic editorial photography, premium restrained corporate visual language.\nLighting/mood: natural cinematic daylight, clean and precise, soft cool reflections.\nColor palette: coherent premium navy, cool blue, white, subtle silver.\nConstraints: no branded device, no surgical procedure, no blood, no scientific outcome claim. No text, logos, watermarks, readable labels, or readable screens.",
+    "mode": "built-in image_gen",
+    "dimensions": "1536x1024",
+    "workspace_asset": "dist/assets/medical-technology.webp"
+  },
+  {
+    "key": "global-healthcare",
+    "prompt": "Use case: photorealistic-natural\nAsset type: landscape website concept image and edited brand-video still, 1536x1024.\nPrimary request: polished sunlit modern clinic reception and consultation lounge, with an adult Korean female healthcare coordinator and an adult international visitor talking naturally while using a tablet. Generic conceptual service scene, not actual company staff, patients or partners.\nComposition/framing: two adults in a calm comfortable conversation, medium-wide editorial composition, tablet held naturally and screen angled away, refined contemporary clinic lounge with tasteful chairs, clean architectural details and windows; suitable for cropping to 16:9.\nStyle/medium: authentic photorealistic editorial photography, premium understated international corporate image.\nLighting/mood: warm welcoming professional service, soft natural cinematic daylight.\nColor palette: premium navy accents, cool blue, white and restrained neutral stone.\nConstraints: no examination, no medical procedure, no identifying documents, no uniforms bearing brands. No text, logos, watermarks, readable paperwork, or readable screens.",
+    "mode": "built-in image_gen",
+    "dimensions": "1536x1024",
+    "workspace_asset": "dist/assets/global-healthcare.webp"
+  },
+  {
+    "key": "marketing-strategy",
+    "prompt": "Use case: photorealistic-natural\nAsset type: landscape website concept image and edited brand-video still, 1536x1024.\nPrimary request: overhead and slightly angled editorial view of a creative strategy desk, three adults' hands collaborating over tasteful unbranded abstract print layouts, muted navy and lavender palette swatches, and an open laptop in a clean modern agency. Generic conceptual marketing strategy scene, not actual company personnel or client work.\nComposition/framing: beautifully organized tabletop; three distinct collaborators' hands naturally point to and arrange printed geometric visual compositions, with one hand near the laptop; varied understated sleeves; elegant negative space and real physical paper textures; wide composition suitable for cropping to 16:9.\nStyle/medium: photorealistic premium editorial photography, authentic creative teamwork rather than staged stock posing.\nLighting/mood: soft natural cinematic daylight, calm focused collaboration.\nColor palette: coherent premium navy, cool blue, white, muted lavender.\nConstraints: abstract visual layouts only, no readable text, no letters, no logos, no watermarks, no graphs or charts implying performance; laptop screen abstract and unreadable.",
+    "mode": "built-in image_gen",
+    "dimensions": "1536x1024",
+    "workspace_asset": "dist/assets/marketing-strategy.webp"
+  },
+  {
+    "key": "content-production",
+    "prompt": "Use case: photorealistic-natural\nAsset type: landscape website concept image and edited brand-video still, 1536x1024.\nPrimary request: high-end unbranded cinema camera in foreground on a professional production set, subtle silhouettes of a small adult crew beyond, with softboxes and blue-white studio lighting. Generic conceptual content-production scene, not actual company staff, equipment or partners.\nComposition/framing: tactile detailed cinema camera and lens dominate foreground, shallow depth of field, small crew beyond naturally working within the studio, elegantly arranged professional lighting, wide cinematic composition suitable for cropping to 16:9.\nStyle/medium: authentic photorealistic editorial photography of filmmaking craft, premium high-end corporate brand image.\nLighting/mood: cinematic high contrast, softboxes visible, carefully controlled blue-white studio light, natural photographic lens character.\nColor palette: coherent deep premium navy shadows, cool blue, crisp white lights, dark charcoal equipment.\nConstraints: no brands, no text, no logos, no watermarks, no readable screens, no celebrities.",
+    "mode": "built-in image_gen",
+    "dimensions": "1536x1024",
+    "workspace_asset": "dist/assets/content-production.webp"
+  }
+]
