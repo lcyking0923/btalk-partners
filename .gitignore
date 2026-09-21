@@ -1,0 +1,3 @@
+.sites-runtime/
+.sites-artifacts/
+*.log
