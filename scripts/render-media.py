@@ -85,15 +85,16 @@ def hero():
     target = WORK / 'connection-loop.mp4'
 
     def motion(index, frames):
-        # Match position and speed across the loop boundary.
+        # Start in motion: a restrained lateral glide, without a stop at the loop seam.
+        # Fixed scale avoids the barely visible "breathing" of the old 1.2% zoom.
         phase = 2 * math.pi * index / frames
-        return 1 + .012 * (1 - math.cos(phase)) / 2, .5, .5
+        return 1.08, .5 + .35 * math.sin(phase), .5 + .12 * math.cos(phase)
 
     # Keep the source aspect ratio so mobile cover-cropping stays stable as well.
-    camera_film(ASSETS / 'connection-bridge.png', target, (1440, 960), 18, motion)
+    camera_film(ASSETS / 'connection-bridge.png', target, (1440, 960), 16, motion)
     poster(target, ASSETS / 'connection-poster.webp')
     shutil.copyfile(target, ASSETS / target.name)
-    print('Hero film ready: 18 seconds, 60 fps, seamless 1.2% motion', flush=True)
+    print('Hero film ready: 16 seconds, 60 fps, continuous lateral camera glide', flush=True)
 
 
 SCENES = [
