@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "btalk-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [".sites-runtime/preview-server.mjs"],
+      "port": 4317
+    }
+  ]
+}
