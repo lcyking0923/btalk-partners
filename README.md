@@ -18,6 +18,7 @@
 - `dist/assets/connection-loop.mp4`: 원본 다리 이미지에 좌우 카메라 이동을 적용한 16초·60fps 무음 배경 영상
 - `dist/assets/btalk-brand-film.mp4`: 4개 사업 이미지를 연결한 25초·60fps 무음 소개 영상
 - `dist/assets/*poster.webp`: 영상의 실제 첫 프레임과 일치하는 대기 이미지
+- `dist/assets/og-image.jpg`: 카카오톡·메신저·SNS 링크 미리보기용 1200×630 공유 이미지(`og:image`)
 - `media-prompts.json`: 내장 image_gen으로 생성한 이미지의 정확한 프롬프트와 저장 경로
 - `scripts/render-media.py`: 두 MP4 영상을 만든 편집 구성
 
