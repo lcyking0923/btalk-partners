@@ -108,7 +108,7 @@ mobileNav.querySelectorAll('a').forEach(link => link.addEventListener('click', c
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && !mobileNav.hidden) { closeMenu(); menuButton.focus(); }
 });
-const desktopViewport = window.matchMedia('(min-width: 761px)');
+const desktopViewport = window.matchMedia('(min-width: 901px)');
 desktopViewport.addEventListener('change', event => { if (event.matches) closeMenu(); });
 
 /* ---------- 영상 ---------- */
